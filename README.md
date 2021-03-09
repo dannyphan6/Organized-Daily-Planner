@@ -8,7 +8,7 @@ Below are links to the deployed link and GitHub repo. Feel free to take a look!
 * [Deployed Link](https://dannyphan6.github.io/Organized-Daily-Planner/)
 * [GitHub Repository](https://github.com/dannyphan6/Organized-Daily-Planner)
 
-![Organized-Daily-Planner](./assets/Capture.png)
+![Organized-Daily-Planner](./assets/daily_planner.png)
 
 ## Summary:
 1. Grey indicates the time/event is in the past

@@ -54,9 +54,15 @@ function timeComparison() {
 timeComparison();
 
 function getLocalStorage () {
+    // .each loops through each class of row 
     $(".row").each(function() {
+        // This targets the class of row with an attribute of data-time
         const grabTime = $(this).attr("data-time")
+        
+        // This says get the value of data-time from localStorage and store it in the variable 
         const localStorageData = localStorage.getItem(grabTime)
+
+        // This targets the child of row with a class of text-value and grab the value from localStorage
         $(this).children(".text-value").val(localStorageData)
     })
 }
